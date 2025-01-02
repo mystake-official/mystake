@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +15,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #ffff;
+            background-color: #ffffff;
             font-family: Arial, sans-serif;
             text-align: center;
         }
