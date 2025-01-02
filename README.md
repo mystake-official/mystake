@@ -1,86 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello Mystake</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <meta name="robots" content="noindex, nofollow">
+    <title>Coins Game Official Site</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body {
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 80vh;
-            margin: 0;
-            flex-direction: column;
-            background-color: #e6e6e6;
-            font-family: 'Roboto', sans-serif;
-            position: relative;
+            height: 100vh;
+            background-color: #ffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
         }
-
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
+        .container {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            margin-bottom: 10px;
-            padding: 10px 20px;
-            background-color: #e6e6e6;
+            justify-content: center;
         }
-
-        nav img {
-            max-width: 100px;
-            height: auto;
-            margin-right: 10px;
-        }
-
-        nav span {
-            font-size: 18px;
-        }
-
-        .titles {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        h1, h2 {
-            margin: 0;
-            font-size: 20px;
-        }
-
         h1 {
-            font-size: 30px;
-            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 2em;
+            color: #333;
         }
-
-        h2 strong {
-            font-weight: bold;
-        }
-
-        .image-container {
-            text-align: center;
-        }
-
-        img {
-            max-width: 300px;
+        a img {
+            max-width: 100%;
             height: auto;
+            border: none;
         }
     </style>
 </head>
 <body>
-    <nav>
-        <a id="nav-link" href="https://go.affiliatemystake.com/visit/?bta=3145505&brand=mystake">
-        <img src="https://mystake.rest/wp-content/uploads/2024/05/JS02-MyStakes_Logo-new.png" alt="Website Avatar"></a>
-        <span>Mystake Official Site</span>
-    </nav>
-    <div class="titles">
-        <h1>2 Step Verification...</h1>
-        <h2>Please Complete the security check to access <strong> Mystake Official Site™</strong></h2>
-    </div>
-    <div class="image-container">
-        <a id="image-link" href="https://go.affiliatemystake.com/visit/?bta=3145505&brand=mystake">
-            <img src="https://cf-assets.www.cloudflare.com/slt3lc6tev37/79wsjD0Xy7FmmYvR0sCncy/5b732b7e26adb7d6c06d943d14dc4acd/not-a-robot.png" alt="Survey Captcha Example">
+    <div class="container">
+        <h1>Mystake Official Site</h1>
+        <a href="http://play2earn.guru/mystake/" target="_blank">
+            <img src="https://www.checkmarket.com/wp-content/uploads/2019/12/survey-captcha-example.png" alt="Captcha Example">
         </a>
     </div>
 </body>
